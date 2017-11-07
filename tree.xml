@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<tree>
+  <ws name="egyptian-heiroglyphs" type="logography abjad" dir="&gt;">
+    <name>Egyptian Heiroglyphs</name>
+    <about>...</about>
+
+    <unicode>
+      <from>13000</from>
+      <to>1342F</to>
+    </unicode>
+
+    <children>
+      <ws name="hieratic" type="semi-logography abjad" dir="&lt;">
+        <name>Hieratic</name>
+        <about>...</about>
+
+        <unicode>
+          <from>13000</from>
+          <to>1342F</to>
+        </unicode>
+
+        <children>
+          <ws name="demotic" type="abjad" dir="&lt;">
+            <name>Demotic (Egyptian)</name>
+            <about>...</about>
+
+            <!-- No Unicode block -->
+
+            <children>
+              <ws name="meirotic" type="alphasyllabary" dir="&lt;">
+                <name>Meirotic</name>
+                <about>...</about>
+
+                <unicode>
+                  <from>10980</from>
+                  <to>109FF</to>
+                </unicode>
+
+                <!-- Childless -->
+              </ws>
+              <ws name="coptic" type="alphabet" dir="&gt;">
+                <!-- Note: Also child of greek. -->
+                <name>Coptic</name>
+                <about>...</about>
+
+                <unicode>
+                  <from>2C80</from>
+                  <to>2CFF</to>
+                </unicode>
+
+                <!-- Childless -->
+              </ws>
+            </children>
+          </ws>
+        </children>
+      </ws>
+      <ws name="proto-sinaitic" type="abjad" dir="o">
+        <name>Proto-Sinaitic</name>
+        <about>...</about>
+
+        <!-- No Unicode block -->
+
+        <children>
+          <ws name="ancient-south-arabian" type="abjad" dir="&lt;">
+            <name>Ancient South Arabian</name>
+            <about>...</about>
+
+            <unicode>
+              <from>10A60</from>
+              <to>10A7F</to>
+            </unicode>
+
+            <children>
+              <ws name="ethiopic" type="alphasyllabary" dir="&gt;">
+                <name>Ge'ez (Ethiopic)</name>
+                <about>...</about>
+
+                <unicode>
+                  <from>1200</from>
+                  <to>139F</to>
+                </unicode>
+
+                <!-- Childless -->
+              </ws>
+            </children>
+          </ws>
+          <ws name="phoenician" type="abjad" dir="&lt;">
+            <name>Phoenician</name>
+            <about>...</about>
+
+            <unicode>
+              <from>10900</from>
+              <to>1091F</to>
+            </unicode>
+
+            <children>
+              <ws name="samaratin" type="abjad" dir="&lt;">
+                <name>Samaratin</name>
+                <about>...</about>
+
+                <unicode>
+                  <from>0800</from>
+                  <to>083F</to>
+                </unicode>
+
+                <!-- Childless -->
+              </ws>
+              <ws name="aramaic" type="abjad" dir="&lt;">
+                <name>Armaic</name>
+                <about>...</about>
+
+                <unicode>
+                  <from>10840</from>
+                  <to>1085F</to>
+                </unicode>
+
+                <children>
+                  <ws name="hebrew" type="abjad-impure" dir="&lt;">
+                    <name>Hebrew</name>
+                    <about>...</about>
+
+                    <unicode>
+                      <from>0590</from>
+                      <to>05FF</to>
+                    </unicode>
+
+                    <children>
+                      <ws name="yiddish" type="abjad" dir="&lt;">
+                        <name>Yiddish</name>
+                        <about>...</about>
+
+                        <unicode>
+                          <from>0590</from>
+                          <to>05FF</to>
+                        </unicode>
+
+                        <!-- Childless -->
+                      </ws>
+                    </children>
+                  </ws>
+                  <ws name="palmyrene" type="abjad" dir="&lt;">
+                    <name>Palmyrene</name>
+                    <about>...</about>
+
+                    <unicode>
+                      <from>10860</from>
+                      <to>1087F</to>
+                    </unicode>
+
+                    <!-- Childless -->
+                  </ws>
+                  <ws name="mandaic" type="alphabet" dir="&lt;">
+                    <name>Mandaic</name>
+                    <about>...</about>
+
+                    <unicode>
+                      <from>0840</from>
+                      <to>085F</to>
+                    </unicode>
+
+                    <!-- Childless -->
+                  </ws>
+                  <ws name="pahlavi" type="abjad" dir="&lt;">
+                    <name>Pahlavi</name>
+                    <about>...</about>
+
+                    <unicode>
+                      <from>10B40</from>
+                      <to>10BAF</to>
+                    </unicode>
+
+                    <children>
+                      <ws name="Avestan" type="alphabet" dir="&lt;">
+                        <name>Avestan</name>
+                        <about>...</about>
+
+                        <unicode>
+                          <from>10B00</from>
+                          <to>10B3F</to>
+                        </unicode>
+
+                        <!-- Childless -->
+                      </ws>
+                    </children>
+                  </ws>
+                  <ws name="brahmi" type="alphasyllabary" dir="&gt;">
+                    <name>Brāhmī</name>
+                    <about>...</about>
+
+                    <unicode>
+                      <from>11000</from>
+                      <to>1107F</to>
+                    </unicode>
+
+                    <children>
+                      <ws name="gupta" type="alphasyllabary" dir="&gt;">
+                        <name>Gupta</name>
+                        <about>...</about>
+
+                        <!-- No Unicode block -->
+
+                        <children>
+                          <ws name="nagari" type="alphasyllabary" dir="&gt;">
+                            <name>Nāgarī</name>
+                            <about>...</about>
+
+                            <!-- No Unicode block -->
+
+                            <children>
+                              <ws name="devanagari" type="alphasyllabary" dir="&gt;">
+                                <name>Devangari</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>0900</from>
+                                  <to>097F</to>
+                                </unicode>
+
+                                <children>
+                                  <ws name="gujarati" type="alphasyllabary" dir="&gt;">
+                                    <name>Gujarati</name>
+                                    <about>...</about>
+
+                                    <unicode>
+                                      <from>0A80</from>
+                                      <to>0AFF</to>
+                                    </unicode>
+
+                                    <!-- Childless -->
+                                  </ws>
+                                  <ws name="modi" type="alphasyllabary" dir="&gt;">
+                                    <name>Mōḍī</name>
+                                    <about>...</about>
+
+                                    <unicode>
+                                      <from>11600</from>
+                                      <to>1165F</to>
+                                    </unicode>
+
+                                    <!-- Childless -->
+                                  </ws>
+                                </children>
+                              </ws>
+                              <ws name="kaithi" type="alphasyllabary" dir="&gt;">
+                                <name>Kaithi</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>11080</from>
+                                  <to>110CF</to>
+                                </unicode>
+
+                                <!-- Childless -->
+                              </ws>
+                              <ws name="sylheti-nagari" type="alphasyllabary" dir="&gt;">
+                                <name>Sylheti Nagari</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>A800</from>
+                                  <to>A82F</to>
+                                </unicode>
+
+                                <!-- Childless -->
+                              </ws>
+                              <ws name="Nandinagari" type="alphasyllabary" dir="&gt;">
+                                <name>Nandinagari</name>
+                                <about>...</about>
+
+                                <!-- No Unicode block - yet -->
+
+                                <!-- Childless -->
+                              </ws>
+                            </children>
+                          </ws>
+                          <ws name="sharada" type="alphasyllabary" dir="&gt;">
+                            <name>Śāradā</name>
+                            <about>...</about>
+
+                            <unicode>
+                              <from>11180</from>
+                              <to>111DF</to>
+                            </unicode>
+
+                            <children>
+                              <ws name="gurmukhi" type="alphasyllabary" dir="&gt;">
+                                <name>gurmukhi</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>0A00</from>
+                                  <to>0A7F</to>
+                                </unicode>
+
+                                <!-- Childless -->
+                              </ws>
+                              <ws name="Takri" type="alphasyllabary" dir="&gt;">
+                                <name>Takri</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>11680</from>
+                                  <to>116CF</to>
+                                </unicode>
+
+                                <!-- Childless -->
+                              </ws>
+                              <ws name="lahnda" type="alphasyllabary" dir="&gt;">
+                                <name>Laṇḍā</name>
+                                <about>...</about>
+
+                                <!-- No Unicode block -->
+
+                                <!-- Childless -->
+                              </ws>
+                            </children>
+                          </ws>
+                        </children>
+                      </ws>
+                      <ws name="pallava" type="alphasyllabary" dir="&gt;">
+                        <name>Pallava</name>
+                        <about>...</about>
+
+                        <!-- No Unicode block -->
+
+                        <children>
+                          <ws name="grantha" type="alphabet" dir="&gt;">
+                            <name>Grantha</name>
+                            <about>...</about>
+
+                            <unicode>
+                              <from>11300</from>
+                              <to>1137F</to>
+                            </unicode>
+
+                            <children>
+                              <ws name="cham" type="alphasyllabary" dir="&gt;">
+                                <name>Cham</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>AA00</from>
+                                  <to>AA5F</to>
+                                </unicode>
+
+                                <!-- Childless -->
+                              </ws>
+                              <ws name="tigalari" type="alphasyllabary" dir="&gt;">
+                                <name>Tigaḷāri</name>
+                                <about>...</about>
+
+                                <!-- No Unicode block -->
+
+                                <!-- Childless -->
+                              </ws>
+                              <ws name="malayalam" type="alphasyllabary" dir="&gt;">
+                                <name>Malayalam</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>0D00</from>
+                                  <to>0D7F</to>
+                                </unicode>
+
+                                <!-- Childless -->
+                              </ws>
+                              <ws name="sinhalese" type="alphasyllabary" dir="&gt;">
+                                <name>Sinhalese</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>0D80</from>
+                                  <to>0DFF</to>
+                                </unicode>
+
+                                <children>
+                                  <ws name="dhives-akuru" type="alphasyllabary" dir="&gt;">
+                                    <name>Dhives Akuru</name>
+                                    <about>...</about>
+
+                                    <!-- No Unicode block -->
+
+                                    <!-- Childless -->
+                                  </ws>
+                                </children>
+                              </ws>
+                            </children>
+                          </ws>
+                          <ws name="kawi" type="alphasyllabary" dir="&gt;">
+                            <name>Aksara Kawi</name>
+                            <about>...</about>
+
+                            <!-- No Unicode block -->
+
+                            <children>
+                              <ws name="balinese" type="alphabet" dir="&gt;">
+                                <name>Aksara Bali</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>1B00</from>
+                                  <to>1B7F</to>
+                                </unicode>
+
+                                <!-- Childless -->
+                              </ws>
+                              <ws name="batak" type="alphabet" dir="&gt;">
+                                <name>Surat Batak</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>1BC0</from>
+                                  <to>1BFF</to>
+                                </unicode>
+
+                                <!-- Childless -->
+                              </ws>
+                              <ws name="tagalog" type="alphasyllabary" dir="&gt;">
+                                <name>Sulat Baybayin</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>1700</from>
+                                  <to>171F</to>
+                                </unicode>
+
+                                <!-- Childless -->
+                              </ws>
+                              <ws name="kulitan" type="alphasyllabary" dir="v">
+                                <name>Kulitan</name>
+                                <about>...</about>
+
+                                <!-- No Unicode block -->
+
+                                <!-- Childless -->
+                              </ws>
+                              <ws name="buhid" type="alphasyllabary" dir="&gt;">
+                                <name>Buhid</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>1740</from>
+                                  <to>175F</to>
+                                </unicode>
+
+                                <!-- Childless -->
+                              </ws>
+                              <ws name="hanunoo" type="alphasyllabary" dir="&gt;">
+                                <name>Hanunó’o</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>1720</from>
+                                  <to>173F</to>
+                                </unicode>
+
+                                <!-- Childless -->
+                              </ws>
+                              <ws name="lontara" type="alphasyllabary" dir="&gt;">
+                                <name>Lontara</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>1A00</from>
+                                  <to>1A1F</to>
+                                </unicode>
+
+                                <!-- Childless -->
+                              </ws>
+                              <ws name="old-sundanese" type="alphasyllabary" dir="&gt;">
+                                <name>Aksara Sunda Kuno</name>
+                                <about>...</about>
+
+                                <!-- No Unicode block -->
+
+                                <children>
+                                  <ws name="sundanese" type="alphasyllabary" dir="&gt;">
+                                    <name>Aksara Sunda</name>
+                                    <about>...</about>
+
+                                    <unicode>
+                                      <from>1B80</from>
+                                      <to>1BBF</to>
+                                    </unicode>
+
+                                    <!-- Childless -->
+                                  </ws>
+                                </children>
+                              </ws>
+                              <ws name="rencong" type="alphasyllabary" dir="&gt;">
+                                <name>Rencong</name>
+                                <about>...</about>
+
+                                <!-- No Unicode block -->
+
+                                <!-- Childless -->
+                              </ws>
+                              <ws name="rejang" type="alphasyllabary" dir="&gt;">
+                                <name>Rejang</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>A930</from>
+                                  <to>A95F</to>
+                                </unicode>
+
+                                <!-- Childless -->
+                              </ws>
+                              <ws name="tagbanwa" type="alphasyllabary" dir="&gt;">
+                                <name>Tagbanwa</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>1760</from>
+                                  <to>177F</to>
+                                </unicode>
+
+                                <!-- Childless -->
+                              </ws>
+                            </children>
+                          </ws>
+                          <ws name="khmer" type="alphasyllabary" dir="&gt;">
+                            <name>Khmer</name>
+                            <about>...</about>
+
+                            <unicode>
+                              <from>1780</from>
+                              <to>17FF</to>
+                            </unicode>
+
+                            <children>
+                              <ws name="thai" type="alphasyllabary" dir="&gt;">
+                                <name>Thai</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>0E00</from>
+                                  <to>0E7F</to>
+                                </unicode>
+
+                                <!-- Childless -->
+                              </ws>
+                              <ws name="lao" type="alphasyllabary" dir="&gt;">
+                                <name>Lao</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>0E80</from>
+                                  <to>0EFF</to>
+                                </unicode>
+
+                                <!-- Childless -->
+                              </ws>
+                            </children>
+                          </ws>
+                        </children>
+                      </ws>
+                    </children>
+                  </ws>
+                  <ws name="kharoshthi" type="alphasyllabary" dir="&lt;">
+                    <name>Kharoshthi</name>
+                    <about>...</about>
+
+                    <unicode>
+                      <from>10A00</from>
+                      <to>10A5F</to>
+                    </unicode>
+
+                    <!-- Childless -->
+                  </ws>
+                  <ws name="syriac" type="abjad-impure" dir="&lt;">
+                    <name>Syriac</name>
+                    <about>...</about>
+
+                    <unicode>
+                      <from>0700</from>
+                      <to>074F</to>
+                    </unicode>
+
+                    <children>
+                      <ws name="sogdian" type="abjad" dir="&lt;">
+                        <name>Sogdian</name>
+                        <about>...</about>
+
+                        <!-- No Unicode block -->
+
+                        <children>
+                          <ws name="manichaean" type="abjad" dir="&lt;">
+                            <name>Manichaean</name>
+                            <about>...</about>
+
+                            <unicode>
+                              <from>10AC0</from>
+                              <to>10AFF</to>
+                            </unicode>
+
+                            <!-- Childless -->
+                          </ws>
+                          <ws name="old-turkic" type="alphabet" dir="&lt;">
+                            <name>Old Turkic</name>
+                            <about>...</about>
+
+                            <unicode>
+                              <from>10C00</from>
+                              <to>10C4F</to>
+                            </unicode>
+
+                            <children>
+                              <ws name="old-hungarian" type="alphabet" dir="&lt;">
+                                <name>Old Hungarian</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>10C80</from>
+                                  <to>10CFF</to>
+                                </unicode>
+
+                                <!-- Childless -->
+                              </ws>
+                            </children>
+                          </ws>
+                          <ws name="old-uyghur" type="abjad" dir="v">
+                            <name>Old Uyghur</name>
+                            <about>...</about>
+
+                            <!-- No Unicode block -->
+
+                            <children>
+                              <ws name="mongolian" type="alphabet" dir="v">
+                                <name>Mongolian</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>1800</from>
+                                  <to>18AF</to>
+                                </unicode>
+
+                                <children>
+                                  <ws name="manchu" type="alphabet" dir="v">
+                                    <name>Manchu</name>
+                                    <about>...</about>
+
+                                    <!-- No Unicode block -->
+
+                                    <!-- Childless -->
+                                  </ws>
+                                  <ws name="oirat" type="alphabet" dir="v">
+                                    <name>Clear script</name>
+                                    <about>...</about>
+
+                                    <!-- No Unicode block -->
+
+                                    <!-- Childless -->
+                                  </ws>
+                                  <ws name="vaghintara" type="alphabet" dir="v">
+                                    <name>Vaghintara</name>
+                                    <about>...</about>
+
+                                    <!-- No Unicode block -->
+
+                                    <!-- Childless -->
+                                  </ws>
+                                  <ws name="galik" type="alphabet" dir="v">
+                                    <name>Galik</name>
+                                    <about>...</about>
+
+                                    <!-- No Unicode block -->
+
+                                    <!-- Childless -->
+                                  </ws>
+                                  <ws name="xibe" type="alphabet" dir="v">
+                                    <name>Xibe</name>
+                                    <about>...</about>
+
+                                    <!-- No Unicode block -->
+
+                                    <!-- Childless -->
+                                  </ws>
+                                </children>
+                              </ws>
+                            </children>
+                          </ws>
+                        </children>
+                      </ws>
+                      <ws name="nabataean" type="abjad" dir="&lt;">
+                        <name>Nabataean</name>
+                        <about>...</about>
+
+                        <unicode>
+                          <from>10880</from>
+                          <to>108AF</to>
+                        </unicode>
+
+                        <children>
+                          <ws name="arabic" type="abjad-impure" dir="&lt;">
+                            <name>Arabic</name>
+                            <about>...</about>
+
+                            <unicode>
+                              <from>0600</from>
+                              <to>06FF</to>
+                            </unicode>
+
+                            <!-- Childless -->
+                          </ws>
+                        </children>
+                      </ws>
+                    </children>
+                  </ws>
+                </children>
+              </ws>
+              <ws name="greek" type="alphabet" dir="&gt;">
+                <name>Greek</name>
+                <about>...</about>
+
+                <unicode>
+                  <from>0370</from>
+                  <to>03FF</to>
+                </unicode>
+
+                <children>
+                  <ws name="gothic" type="alphabet" dir="&gt;">
+                    <name>Gothic</name>
+                    <about>...</about>
+
+                    <unicode>
+                      <from>10330</from>
+                      <to>1034F</to>
+                    </unicode>
+
+                    <!-- Childless -->
+                  </ws>
+                  <ws name="glagolititc" type="alphabet" dir="&gt;">
+                    <name>Glagolitic</name>
+                    <about>...</about>
+
+                    <unicode>
+                      <from>2C00</from>
+                      <to>2C5F</to>
+                    </unicode>
+
+                    <!-- Childless -->
+                  </ws>
+                  <ws name="cyrillic" type="alphabet" dir="&gt;">
+                    <name>Cyrillic</name>
+                    <about>...</about>
+
+                    <unicode>
+                      <from>0400</from>
+                      <to>052F</to>
+                    </unicode>
+
+                    <!-- Childless -->
+                  </ws>
+                  <ws name="armenian" type="alphabet" dir="&gt;">
+                    <name>Armenian</name>
+                    <about>...</about>
+
+                    <unicode>
+                      <from>0530</from>
+                      <to>058F</to>
+                    </unicode>
+
+                    <children>
+                      <ws name="caucasian-albanian" type="alphabet" dir="&gt;">
+                        <name>Caucasian Albanian</name>
+                        <about>...</about>
+
+                        <unicode>
+                          <from>10530</from>
+                          <to>1056F</to>
+                        </unicode>
+
+                        <!-- Childless -->
+                      </ws>
+                    </children>
+                  </ws>
+                  <ws name="old-italic" type="alphabet" dir="&gt;">
+                    <name>Old Italic</name>
+                    <about>...</about>
+
+                    <unicode>
+                      <from>10300</from>
+                      <to>1032F</to>
+                    </unicode>
+
+                    <children>
+                      <ws name="latin" type="alphabet" dir="&gt;">
+                        <name>Latin</name>
+                        <about>...</about>
+
+                        <unicode>
+                          <from>0000</from>
+                          <to>02FF</to>
+                        </unicode>
+
+                        <children>
+                          <ws name="osage" type="alphabet" dir="&gt;">
+                            <name>Osage</name>
+                            <about>...</about>
+
+                            <unicode>
+                              <from>104B0</from>
+                              <to>104FF</to>
+                            </unicode>
+
+                            <!-- Childless -->
+                          </ws>
+                        </children>
+                      </ws>
+                      <ws name="elder-futhark" type="alphabet" dir="&gt;">
+                        <name>Elder Futhark</name>
+                        <about>...</about>
+
+                        <unicode>
+                          <from>16A0</from>
+                          <to>16FF</to>
+                        </unicode>
+
+                        <children>
+                          <ws name="younger-futhark" type="alphabet" dir="&gt;">
+                            <name>Younger Futhark</name>
+                            <about>...</about>
+
+                            <unicode>
+                              <from>16A0</from>
+                              <to>16FF</to>
+                            </unicode>
+
+                            <children>
+                              <ws name="medieval-runes" type="alphabet" dir="&gt;">
+                                <name>Medieval Runes</name>
+                                <about>...</about>
+
+                                <unicode>
+                                  <from>16A0</from>
+                                  <to>16FF</to>
+                                </unicode>
+
+                                <children>
+                                  <ws name="dalecarlian-runes" type="alphabet" dir="&gt;">
+                                    <name>Dalecarlian Runes</name>
+                                    <about>...</about>
+
+                                    <unicode>
+                                      <from>16A0</from>
+                                      <to>16FF</to>
+                                    </unicode>
+
+                                    <!-- Childless -->
+                                  </ws>
+                                </children>
+                              </ws>
+                            </children>
+                          </ws>
+                          <ws name="anglo-saxon" type="alphabet" dir="&gt;">
+                            <name>Anglo-Saxon Runes</name>
+                            <about>...</about>
+
+                            <unicode>
+                              <from>16A0</from>
+                              <to>16FF</to>
+                            </unicode>
+
+                            <children>
+                              <!-- Child Languages -->
+                            </children>
+                          </ws>
+                        </children>
+                      </ws>
+                    </children>
+                  </ws>
+                  <ws name="georgian" type="alphabet" dir="&gt;">
+                    <name>Georgian</name>
+                    <about>...</about>
+
+                    <unicode>
+                      <from>10A0</from>
+                      <to>10FF</to>
+                    </unicode>
+
+                    <!-- Childless -->
+                  </ws>
+                </children>
+              </ws>
+            </children>
+          </ws>
+        </children><!-- Big Daddy -->
+      </ws>
+    </children>
+  </ws>
+</tree>
