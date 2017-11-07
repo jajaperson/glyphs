@@ -3,8 +3,21 @@
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+<xsl:output method="html"/>
+
 <xsl:template match="/tree">
   <html>
+  <head>
+    <title>Evolution of Writing Systems</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet"/>
+
+    <style>
+      body {
+        font-family: 'Lato', sans-serif;
+      }
+    </style>
+  </head>
   <body>
     <h1>Evolution of Writing Systems</h1>
     <ul>
