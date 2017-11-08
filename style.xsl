@@ -29,7 +29,25 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:template match="ws">
   <li>
-    <b><xsl:value-of select="./name"/></b> → <xsl:value-of select="@type"/><br/>
+    <b><xsl:value-of select="./name"/></b>
+    <xsl:choose>
+      <xsl:when test="@dir = '^'">
+        ↑
+      </xsl:when>
+      <xsl:when test="@dir = 'v'">
+        ↓
+      </xsl:when>
+      <xsl:when test="@dir = '&lt;'">
+        ←
+      </xsl:when>
+      <xsl:when test="@dir = '&gt;'">
+        →
+      </xsl:when>
+      <xsl:otherwise>
+        ⤴
+      </xsl:otherwise>
+    </xsl:choose>
+    <xsl:value-of select="@type"/><br/>
     <xsl:apply-templates select="unicode"/>
     <xsl:apply-templates select="./children"/>
   </li>
