@@ -14,7 +14,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <style>
       body {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Roboto', 'Lato', sans-serif;
       }
     </style>
   </head>
